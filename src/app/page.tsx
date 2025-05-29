@@ -1,10 +1,9 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Wrench, Zap, Network, Phone, Mail, MapPin, ExternalLink, Download } from 'lucide-react';
+import { ChevronDown, Wrench, Network, Phone, Mail, MapPin, Download } from 'lucide-react';
 
 const Portfolio = () => {
   const [scrollY, setScrollY] = useState(0);
-  const [activeSection, setActiveSection] = useState('hero');
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -107,8 +106,8 @@ const Portfolio = () => {
               </h2>
               <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
                 <p>
-                  With over 8 years of experience in HVAC systems, I've mastered the art of precision 
-                  installation, electrical diagnostics, and complex system troubleshooting. Now, I'm 
+                  With over 8 years of experience in HVAC systems, I&apos;ve mastered the art of precision 
+                  installation, electrical diagnostics, and complex system troubleshooting. Now, I&apos;m 
                   channeling this expertise into the rapidly growing field of fiber optic infrastructure.
                 </p>
                 <p>
@@ -248,7 +247,7 @@ const Portfolio = () => {
       <section className="py-20 px-4 relative">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-xl text-gray-300 mb-12">
             Ready to bring precision and expertise to your fiber optic projects
