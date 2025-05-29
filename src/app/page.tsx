@@ -250,7 +250,7 @@ const Portfolio = () => {
             Let&apos;s Connect
           </h2>
           <p className="text-xl text-gray-300 mb-12">
-            Ready to bring precision and expertise to your fiber optic projects
+            Ready to bring precision and expertise to your fiber optic projects.
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
